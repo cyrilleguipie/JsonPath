@@ -19,7 +19,7 @@ This library is available at the Central Maven Repository. Maven users add this 
 
 Statically import the library entry point:
 
-    import static com.jayway.jsonpath.matchers.JsonPathMatchers.*;
+    import static JsonPathMatchers.*;
 
 NOTE: The actual evaluation of JsonPath will depend on the current configuration:
 

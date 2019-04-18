@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/json-path/com.gg.jsonpath.json-path.iml" filepath="$PROJECT_DIR$/.idea/modules/json-path/com.gg.jsonpath.json-path.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/json-path-assert/com.gg.jsonpath.json-path-assert.iml" filepath="$PROJECT_DIR$/.idea/modules/json-path-assert/com.gg.jsonpath.json-path-assert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/json-path-assert/com.gg.jsonpath.json-path-assert.main.iml" filepath="$PROJECT_DIR$/.idea/modules/json-path-assert/com.gg.jsonpath.json-path-assert.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/json-path-assert/com.gg.jsonpath.json-path-assert.test.iml" filepath="$PROJECT_DIR$/.idea/modules/json-path-assert/com.gg.jsonpath.json-path-assert.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.gg.jsonpath.json-path-parent.iml" filepath="$PROJECT_DIR$/.idea/modules/com.gg.jsonpath.json-path-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/json-path-web-test/com.gg.jsonpath.json-path-web-test.iml" filepath="$PROJECT_DIR$/.idea/modules/json-path-web-test/com.gg.jsonpath.json-path-web-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/json-path-web-test/com.gg.jsonpath.json-path-web-test.main.iml" filepath="$PROJECT_DIR$/.idea/modules/json-path-web-test/com.gg.jsonpath.json-path-web-test.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/json-path-web-test/com.gg.jsonpath.json-path-web-test.test.iml" filepath="$PROJECT_DIR$/.idea/modules/json-path-web-test/com.gg.jsonpath.json-path-web-test.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/json-path/com.gg.jsonpath.json-path.main.iml" filepath="$PROJECT_DIR$/.idea/modules/json-path/com.gg.jsonpath.json-path.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/json-path/com.gg.jsonpath.json-path.test.iml" filepath="$PROJECT_DIR$/.idea/modules/json-path/com.gg.jsonpath.json-path.test.iml" />
+    </modules>
+  </component>
+</project>

@@ -276,9 +276,9 @@ You can use `!` to negate a predicate `[?(!(@.price < 10 && @.category == 'ficti
 Predicates can be built using the Filter API as shown below:
 
 ```java
-import static com.jayway.jsonpath.JsonPath.parse;
-import static com.jayway.jsonpath.Criteria.where;
-import static com.jayway.jsonpath.Filter.filter;
+import static JsonPath.parse;
+import static Criteria.where;
+import static Filter.filter;
 ...
 ...
 
@@ -438,8 +438,8 @@ Note that the JacksonJsonProvider requires `com.fasterxml.jackson.core:jackson-d
 
 In JsonPath 2.1.0 a new Cache SPI was introduced. This allows API consumers to configure path caching in a way that suits their needs. The cache must be configured before it is accesses for the first time or a JsonPathException is thrown. JsonPath ships with two cache implementations
 
-* `com.jayway.jsonpath.spi.cache.LRUCache` (default, thread safe)
-* `com.jayway.jsonpath.spi.cache.NOOPCache` (no cache)
+* `LRUCache` (default, thread safe)
+* `NOOPCache` (no cache)
 
 If you want to implement your own cache the API is simple. 
 
@@ -478,11 +478,11 @@ JsonPath set/put API can be used to update the value in a document at a given Pa
 Here path '$.a.b.c' does not exist in the input Object so we would get a PathNotFoundException
 
 ```java
-com.jayway.jsonpath.PathNotFoundException: Missing property in path $['a']
-	at com.jayway.jsonpath.internal.path.EvaluationContextImpl.getValue(EvaluationContextImpl.java:133)
-	at com.jayway.jsonpath.JsonPath.read(JsonPath.java:199)
-	at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:89)
-	at com.jayway.jsonpath.internal.JsonContext.read(JsonContext.java:78)
+PathNotFoundException: Missing property in path $['a']
+	at EvaluationContextImpl.getValue(EvaluationContextImpl.java:133)
+	at JsonPath.read(JsonPath.java:199)
+	at JsonContext.read(JsonContext.java:89)
+	at JsonContext.read(JsonContext.java:78)
 ```
 
 There are usecases where one would like the above set API to create a JSON of the form below:

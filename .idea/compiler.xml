@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.g.jsonpath.json-path-assert.main" target="1.8" />
+      <module name="com.g.jsonpath.json-path-assert.test" target="1.8" />
+      <module name="com.g.jsonpath.json-path-web-test.main" target="1.8" />
+      <module name="com.g.jsonpath.json-path-web-test.test" target="1.8" />
+      <module name="com.g.jsonpath.json-path.main" target="1.8" />
+      <module name="com.g.jsonpath.json-path.test" target="1.8" />
+      <module name="com.gg.jsonpath.json-path-assert.main" target="1.8" />
+      <module name="com.gg.jsonpath.json-path-assert.test" target="1.8" />
+      <module name="com.gg.jsonpath.json-path-web-test.main" target="1.8" />
+      <module name="com.gg.jsonpath.json-path-web-test.test" target="1.8" />
+      <module name="com.gg.jsonpath.json-path.main" target="1.8" />
+      <module name="com.gg.jsonpath.json-path.test" target="1.8" />
+      <module name="com.jayway.jsonpath.json-path-assert.main" target="1.8" />
+      <module name="com.jayway.jsonpath.json-path-assert.test" target="1.8" />
+      <module name="com.jayway.jsonpath.json-path-web-test.main" target="1.8" />
+      <module name="com.jayway.jsonpath.json-path-web-test.test" target="1.8" />
+      <module name="com.jayway.jsonpath.json-path.main" target="1.8" />
+      <module name="com.jayway.jsonpath.json-path.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

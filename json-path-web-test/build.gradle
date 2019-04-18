@@ -3,7 +3,7 @@ apply plugin: 'application'
 
 description = "Web app that compares different JsonPath implementations."
 
-mainClassName = 'com.jayway.jsonpath.web.boot.Main'
+mainClassName = 'com.gg.jsonpath.web.boot.Main'
 
 task createBuildInfoFile {
     doLast {

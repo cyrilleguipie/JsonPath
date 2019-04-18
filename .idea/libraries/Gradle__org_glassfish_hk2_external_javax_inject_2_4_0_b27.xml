@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.glassfish.hk2.external:javax.inject:2.4.0-b27">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/javax.inject/2.4.0-b27/aedea16a7b40f660ac17ff19e36e45edda5a0121/javax.inject-2.4.0-b27.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/javax.inject/2.4.0-b27/f07f04838ab9c382c208cd4c975e06884b37dd5a/javax.inject-2.4.0-b27-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

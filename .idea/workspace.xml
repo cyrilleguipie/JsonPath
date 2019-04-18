@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e472351c-5a01-4054-8dd1-fc928e9119a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/main/java/com/jayway/jsonassert/JsonAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/main/java/com/gg/jsonassert/JsonAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/main/java/com/jayway/jsonassert/JsonAsserter.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/main/java/com/gg/jsonassert/JsonAsserter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/main/java/com/jayway/jsonassert/impl/JsonAsserterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/main/java/com/gg/jsonassert/impl/JsonAsserterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/main/java/com/jayway/jsonassert/impl/matcher/CollectionMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/main/java/com/gg/jsonassert/impl/matcher/CollectionMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/main/java/com/jayway/jsonassert/impl/matcher/IsCollectionWithSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/main/java/com/gg/jsonassert/impl/matcher/IsCollectionWithSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/main/java/com/jayway/jsonassert/impl/matcher/IsEmptyCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/main/java/com/gg/jsonassert/impl/matcher/IsEmptyCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/main/java/com/jayway/jsonassert/impl/matcher/IsMapContainingKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/main/java/com/gg/jsonassert/impl/matcher/IsMapContainingKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/main/java/com/jayway/jsonassert/impl/matcher/IsMapContainingValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/main/java/com/gg/jsonassert/impl/matcher/IsMapContainingValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/main/java/com/jayway/jsonassert/impl/matcher/MapTypeSafeMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/main/java/com/gg/jsonassert/impl/matcher/MapTypeSafeMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/main/java/com/jayway/jsonpath/matchers/IsJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/main/java/com/gg/jsonpath/matchers/IsJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/main/java/com/jayway/jsonpath/matchers/JsonPathMatchers.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/main/java/com/gg/jsonpath/matchers/JsonPathMatchers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/main/java/com/jayway/jsonpath/matchers/WithJsonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/main/java/com/gg/jsonpath/matchers/WithJsonPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/main/java/com/jayway/jsonpath/matchers/WithoutJsonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/main/java/com/gg/jsonpath/matchers/WithoutJsonPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/test/java/com/jayway/jsonassert/JsonAssertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/test/java/com/gg/jsonassert/JsonAssertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/test/java/com/jayway/jsonpath/matchers/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/test/java/com/gg/jsonpath/matchers/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/test/java/com/jayway/jsonpath/matchers/HasNoJsonPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/test/java/com/gg/jsonpath/matchers/HasNoJsonPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/test/java/com/jayway/jsonpath/matchers/IsJsonFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/test/java/com/gg/jsonpath/matchers/IsJsonFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/test/java/com/jayway/jsonpath/matchers/IsJsonStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/test/java/com/gg/jsonpath/matchers/IsJsonStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/test/java/com/jayway/jsonpath/matchers/IsJsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/test/java/com/gg/jsonpath/matchers/IsJsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/test/java/com/jayway/jsonpath/matchers/JsonPathMatchersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/test/java/com/gg/jsonpath/matchers/JsonPathMatchersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/test/java/com/jayway/jsonpath/matchers/WithJsonPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/test/java/com/gg/jsonpath/matchers/WithJsonPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/test/java/com/jayway/jsonpath/matchers/WithoutJsonPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/test/java/com/gg/jsonpath/matchers/WithoutJsonPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/test/java/com/jayway/jsonpath/matchers/helpers/ResourceHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/test/java/com/gg/jsonpath/matchers/helpers/ResourceHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/test/java/com/jayway/jsonpath/matchers/helpers/StrictParsingConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/test/java/com/gg/jsonpath/matchers/helpers/StrictParsingConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-assert/src/test/java/com/jayway/jsonpath/matchers/helpers/TestingMatchers.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-assert/src/test/java/com/gg/jsonpath/matchers/helpers/TestingMatchers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-web-test/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-web-test/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-web-test/src/main/java/com/jayway/jsonpath/web/bench/Bench.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-web-test/src/main/java/com/gg/jsonpath/web/bench/Bench.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-web-test/src/main/java/com/jayway/jsonpath/web/bench/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-web-test/src/main/java/com/gg/jsonpath/web/bench/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-web-test/src/main/java/com/jayway/jsonpath/web/boot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-web-test/src/main/java/com/gg/jsonpath/web/boot/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path-web-test/src/main/java/com/jayway/jsonpath/web/resource/ApiResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path-web-test/src/main/java/com/gg/jsonpath/web/resource/ApiResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/Criteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/Criteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/DocumentContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/DocumentContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/EvaluationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/EvaluationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/InvalidCriteriaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/InvalidCriteriaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/InvalidJsonException.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/InvalidJsonException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/InvalidModificationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/InvalidModificationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/InvalidPathException.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/InvalidPathException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/JsonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/JsonPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/JsonPathException.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/JsonPathException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/MapFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/MapFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/Option.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/ParseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/ParseContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/PathNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/PathNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/Predicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/Predicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/ReadContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/ReadContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/TypeRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/TypeRef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/ValueCompareException.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/ValueCompareException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/WriteContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/WriteContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/CharacterIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/CharacterIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/DefaultsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/DefaultsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/EvaluationAbortException.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/EvaluationAbortException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/EvaluationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/EvaluationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/JsonContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/JsonContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/JsonFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/JsonFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/ParseContextImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/ParseContextImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/Path.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/PathRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/PathRef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/filter/Evaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/filter/Evaluator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/filter/EvaluatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/filter/EvaluatorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/filter/ExpressionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/filter/ExpressionNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/filter/FilterCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/filter/FilterCompiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/filter/LogicalExpressionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/filter/LogicalExpressionNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/filter/LogicalOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/filter/LogicalOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/filter/PatternFlag.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/filter/PatternFlag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/filter/RelationalExpressionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/filter/RelationalExpressionNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/filter/RelationalOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/filter/RelationalOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/filter/ValueNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/filter/ValueNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/filter/ValueNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/filter/ValueNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/ParamType.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/ParamType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/Parameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/Parameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/PassthruPathFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/PassthruPathFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/PathFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/PathFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/PathFunctionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/PathFunctionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/json/Append.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/json/Append.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/latebinding/ILateBindingValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/latebinding/ILateBindingValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/latebinding/JsonLateBindingValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/latebinding/JsonLateBindingValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/latebinding/PathLateBindingValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/latebinding/PathLateBindingValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/numeric/AbstractAggregation.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/numeric/AbstractAggregation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/numeric/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/numeric/Average.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/numeric/Max.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/numeric/Max.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/numeric/Min.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/numeric/Min.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/numeric/StandardDeviation.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/numeric/StandardDeviation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/numeric/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/numeric/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/text/Concatenate.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/text/Concatenate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/function/text/Length.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/function/text/Length.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/ArrayIndexOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/ArrayIndexOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/ArrayIndexToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/ArrayIndexToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/ArrayPathToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/ArrayPathToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/ArraySliceOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/ArraySliceOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/ArraySliceToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/ArraySliceToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/CompiledPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/CompiledPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/EvaluationContextImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/EvaluationContextImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/FunctionPathToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/FunctionPathToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/PathCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/PathCompiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/PathToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/PathToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/PathTokenAppender.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/PathTokenAppender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/PathTokenFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/PathTokenFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/PredicateContextImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/PredicateContextImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/PredicatePathToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/PredicatePathToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/PropertyPathToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/PropertyPathToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/RootPathToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/RootPathToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/ScanPathToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/ScanPathToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/internal/path/WildcardPathToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/internal/path/WildcardPathToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/cache/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/cache/Cache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/cache/CacheProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/cache/CacheProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/cache/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/cache/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/cache/NOOPCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/cache/NOOPCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/json/AbstractJsonProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/json/AbstractJsonProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/json/GsonJsonProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/json/GsonJsonProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/json/JacksonJsonNodeJsonProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/json/JacksonJsonNodeJsonProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/json/JacksonJsonProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/json/JacksonJsonProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/json/JettisonProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/json/JettisonProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/json/JsonOrgJsonProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/json/JsonOrgJsonProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/json/JsonProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/json/JsonProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/json/JsonSmartJsonProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/json/JsonSmartJsonProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/json/TapestryJsonProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/json/TapestryJsonProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/mapper/GsonMappingProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/mapper/GsonMappingProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/mapper/JacksonMappingProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/mapper/JacksonMappingProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/mapper/JsonOrgMappingProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/mapper/JsonOrgMappingProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/mapper/JsonSmartMappingProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/mapper/JsonSmartMappingProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/mapper/MappingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/mapper/MappingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/mapper/MappingProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/mapper/MappingProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/mapper/TapestryMappingProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/mapper/TapestryMappingProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/transformer/TransformationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/transformer/TransformationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/transformer/TransformationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/transformer/TransformationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/transformer/TransformationSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/transformer/TransformationSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/transformer/TransformationSpecValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/transformer/TransformationSpecValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/transformer/ValidationError.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/transformer/ValidationError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/transformer/jsonpathtransformer/JsonPathTransformationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/transformer/jsonpathtransformer/JsonPathTransformationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/transformer/jsonpathtransformer/JsonPathTransformationSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/transformer/jsonpathtransformer/JsonPathTransformationSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/transformer/jsonpathtransformer/UnsupportedWildcardPathException.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/transformer/jsonpathtransformer/UnsupportedWildcardPathException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/transformer/jsonpathtransformer/model/JsonPathTransformerValidationError.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/transformer/jsonpathtransformer/model/JsonPathTransformerValidationError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/transformer/jsonpathtransformer/model/LookupTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/transformer/jsonpathtransformer/model/LookupTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/transformer/jsonpathtransformer/model/PathMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/transformer/jsonpathtransformer/model/PathMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/transformer/jsonpathtransformer/model/SourceTransform.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/transformer/jsonpathtransformer/model/SourceTransform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/transformer/jsonpathtransformer/model/TableData.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/transformer/jsonpathtransformer/model/TableData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/transformer/jsonpathtransformer/model/TransformationModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/transformer/jsonpathtransformer/model/TransformationModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/Configurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/Configurations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/CreateJsonFromPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/CreateJsonFromPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/DeepScanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/DeepScanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/EscapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/EscapeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/EvaluationListenerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/EvaluationListenerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/FilterCompilerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/FilterCompilerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/FilterParseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/FilterParseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/FilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/FilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/GsonJsonProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/GsonJsonProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/InlineFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/InlineFilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/JacksonJsonNodeJsonProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/JacksonJsonNodeJsonProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/JacksonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/JacksonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/JsonOrgJsonProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/JsonOrgJsonProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/JsonProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/JsonProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/JsonProviderTestObjectMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/JsonProviderTestObjectMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/MapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/MultiPropTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/MultiPropTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/OptionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/OptionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/PathCompilerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/PathCompilerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/PredicateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/PredicateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/ProviderInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/ProviderInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/ReadContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/ReadContextTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/ReturnTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/ReturnTypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/TapestryJsonProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/TapestryJsonProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/TestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/TransformationAdvancedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/TransformationAdvancedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/TransformationBasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/TransformationBasicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/TransformationSpecValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/TransformationSpecValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/TransformationWithFiltersAndFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/TransformationWithFiltersAndFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/TransformationWithWildCardArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/TransformationWithWildCardArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/WriteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/WriteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/internal/JsonContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/internal/JsonContextTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/internal/UtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/internal/UtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/internal/filter/PatternFlagTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/internal/filter/PatternFlagTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/internal/filter/RegexpEvaluatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/internal/filter/RegexpEvaluatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/internal/function/BaseFunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/internal/function/BaseFunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/internal/function/Issue191.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/internal/function/Issue191.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/internal/function/Issue234.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/internal/function/Issue234.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/internal/function/JSONEntityPathFunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/internal/function/JSONEntityPathFunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/internal/function/NestedFunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/internal/function/NestedFunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/internal/function/NumericPathFunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/internal/function/NumericPathFunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/internal/path/PathTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/internal/path/PathTokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/old/ArraySlicingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/old/ArraySlicingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/old/ComplianceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/old/ComplianceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/old/FilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/old/FilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/old/IssuesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/old/IssuesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/old/JsonPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/old/JsonPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/old/JsonProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/old/JsonProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/old/NullHandlingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/old/NullHandlingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/old/internal/ArrayIndexFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/old/internal/ArrayIndexFilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/old/internal/ArrayPathTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/old/internal/ArrayPathTokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/old/internal/PredicatePathTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/old/internal/PredicatePathTokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/old/internal/PropertyPathTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/old/internal/PropertyPathTokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/old/internal/ScanPathTokenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/old/internal/ScanPathTokenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/old/internal/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/old/internal/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/java/com/jayway/jsonpath/old/internal/TestInternal3.java" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/java/com/gg/jsonpath/old/internal/TestInternal3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json-path/src/test/resources/simplelogger.properties" beforeDir="false" afterPath="$PROJECT_DIR$/json-path/src/test/resources/simplelogger.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/json-path/.gradle/" />
+    <ignored path="$PROJECT_DIR$/json-path/build/" />
+    <ignored path="$PROJECT_DIR$/json-path/out/" />
+    <ignored path="$PROJECT_DIR$/json-path-assert/.gradle/" />
+    <ignored path="$PROJECT_DIR$/json-path-assert/build/" />
+    <ignored path="$PROJECT_DIR$/json-path-assert/out/" />
+    <ignored path="$PROJECT_DIR$/json-path-web-test/.gradle/" />
+    <ignored path="$PROJECT_DIR$/json-path-web-test/build/" />
+    <ignored path="$PROJECT_DIR$/json-path-web-test/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradlew">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2312" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/PathNotFoundException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-528">
+                <folding>
+                  <element signature="imports" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json-path-web-test/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jayway</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/json-path/src/main/java/com/jayway/jsonpath/spi/json/AbstractJsonProvider.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/json-path-web-test/build.gradle" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="54" />
+    <option name="y" value="79" />
+    <option name="width" value="1615" />
+    <option name="height" value="949" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path-assert" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path-assert" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path-assert" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path-assert" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path-assert" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path-assert" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path-assert" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path-web-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path-web-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path-web-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path-web-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="json-path-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonPath" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="json-path-web-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555591214983" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e472351c-5a01-4054-8dd1-fc928e9119a0" name="Default Changelist" comment="" />
+      <created>1555589200852</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555589200852</updated>
+      <workItem from="1555589794324" duration="1197000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1197000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="45" width="1615" height="949" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2495226" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" weight="0.32943925" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49968174" visible="true" weight="0.32943925" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5003183" side_tool="true" weight="0.32943925" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="sbt" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Jms Messenger" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="rails-model-fields" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/spi/json/AbstractJsonProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-path/src/main/java/com/gg/jsonpath/PathNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-528">
+            <folding>
+              <element signature="imports" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-path-web-test/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
